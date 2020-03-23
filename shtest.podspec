@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/shiv-appier/shtest.git", :tag => "v#{s.version}"}
   s.default_subspec = "ios-sdk"  
+  s.static_framework = true
   
   s.subspec 'ios-sdk' do |ss|
     ss.library = 'z'
     ss.source_files = "QGSdk.h", "AIQP.h", "QGWKWebView.h", "QGInbox.h", "AIQP+ReactNative.h"
     ss.vendored_library = "libQGSdk.a"
-    ss.static_framework = true
     ss.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'ImageIO', 'MobileCoreServices' 
   end
 
