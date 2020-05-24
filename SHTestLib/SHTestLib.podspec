@@ -60,8 +60,8 @@ Pod::Spec.new do |s|
   s.static_framework = true
   
   s.library = 'z'
-  s.source_files = 'SHTestLib/Classes/**/*.{.h, .m, .swift}'
-  s.vendored_library = "SHTestLib/Classes/**/*.a"
+  s.source_files = '../Classes/**/*.{h, m, swift}'
+  s.vendored_library = "../Classes/**/*.a"
   s.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'ImageIO', 'MobileCoreServices'
 
   s.requires_arc = true
