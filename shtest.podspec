@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
   s.static_framework = true
   
   s.subspec 'ios-sdk' do |ss|
-    s.library = 'z'
-    s.source_files = "Classes/**/*.{h, m, swift}"
-    s.vendored_library = "Classes/**/*.a"
-    s.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'ImageIO', 'MobileCoreServices' 
+    ss.library = 'z'
+    ss.source_files = "Classes/**/*.{h, m, swift}"
+    ss.vendored_library = "Classes/**/*.a"
+    ss.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'ImageIO', 'MobileCoreServices' 
   end
 
   s.requires_arc = true
