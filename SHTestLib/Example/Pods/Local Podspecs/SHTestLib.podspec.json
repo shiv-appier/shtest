@@ -1,0 +1,22 @@
+{
+  "name": "SHTestLib",
+  "version": "0.1.0",
+  "summary": "A short description of SHTestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shiv-appier/SHTestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shiv-appier": "shiv.raj@appier.com"
+  },
+  "source": {
+    "git": "https://github.com/shiv-appier/SHTestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SHTestLib/Classes/**/*"
+}
