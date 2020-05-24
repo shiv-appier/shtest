@@ -14,15 +14,15 @@ Pod::Spec.new do |s|
   s.author             = { "appier" => "shiv.raj@appier.com" }
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/shiv-appier/shtest.git", :tag => "v#{s.version}"}
-  # s.default_subspec = "ios-sdk"  
+  s.default_subspec = "ios-sdk"  
   s.static_framework = true
   
-  # s.subspec 'ios-sdk' do |ss|SHTestLib/SHTestLib/Classes
+  s.subspec 'ios-sdk' do |ss|
     s.library = 'z'
-    s.source_files = 'SHTestLib/SHTestLib/Classes/**/*.{.h, .m, .swift}'
+    s.source_files = 'SHTestLib/SHTestLib/Classes/**/*.h'
     s.vendored_library = "SHTestLib/SHTestLib/Classes/**/*.a"
     s.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'ImageIO', 'MobileCoreServices' 
-  # end
+  end
 
   s.requires_arc = true
 
