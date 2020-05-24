@@ -13,20 +13,6 @@
 		9A3F3241F3966A0A661EF12E4CF62C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B8EB0E154960EC79C659474ED1830337 /* Pods-SHTestLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E28D8634B2F3BA776517C2330F5AE9B /* Pods-SHTestLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD8765B92DCFBDBA2D9B756D57E0038B /* SHTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B505FF4E49B6AEA1CF54AFB3BDDD81B /* SHTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C34250882479194F003DEDA6 /* QGInbox.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250812479194E003DEDA6 /* QGInbox.h */; };
-		C34250892479194F003DEDA6 /* QGInbox.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250812479194E003DEDA6 /* QGInbox.h */; };
-		C342508A2479194F003DEDA6 /* QGSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250822479194E003DEDA6 /* QGSdk.h */; };
-		C342508B2479194F003DEDA6 /* QGSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250822479194E003DEDA6 /* QGSdk.h */; };
-		C342508C2479194F003DEDA6 /* libQGSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C34250832479194E003DEDA6 /* libQGSdk.a */; };
-		C342508D2479194F003DEDA6 /* libQGSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C34250832479194E003DEDA6 /* libQGSdk.a */; };
-		C342508E2479194F003DEDA6 /* QGWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250842479194E003DEDA6 /* QGWKWebView.h */; };
-		C342508F2479194F003DEDA6 /* QGWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250842479194E003DEDA6 /* QGWKWebView.h */; };
-		C34250902479194F003DEDA6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C34250852479194E003DEDA6 /* LICENSE */; };
-		C34250912479194F003DEDA6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C34250852479194E003DEDA6 /* LICENSE */; };
-		C34250922479194F003DEDA6 /* AIQP.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250862479194F003DEDA6 /* AIQP.h */; };
-		C34250932479194F003DEDA6 /* AIQP.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250862479194F003DEDA6 /* AIQP.h */; };
-		C34250942479194F003DEDA6 /* AIQP+ReactNative.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250872479194F003DEDA6 /* AIQP+ReactNative.h */; };
-		C34250952479194F003DEDA6 /* AIQP+ReactNative.h in Headers */ = {isa = PBXBuildFile; fileRef = C34250872479194F003DEDA6 /* AIQP+ReactNative.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +44,6 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBFDBDA6C9ACE779530CE56F21CAD85 /* Pods-SHTestLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHTestLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A63FAA7CEC130C23082B5C6A7F20F512 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C34250812479194E003DEDA6 /* QGInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGInbox.h; path = SHTestLib/Classes/QGInbox.h; sourceTree = "<group>"; };
-		C34250822479194E003DEDA6 /* QGSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGSdk.h; path = SHTestLib/Classes/QGSdk.h; sourceTree = "<group>"; };
-		C34250832479194E003DEDA6 /* libQGSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQGSdk.a; path = SHTestLib/Classes/libQGSdk.a; sourceTree = "<group>"; };
-		C34250842479194E003DEDA6 /* QGWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGWKWebView.h; path = SHTestLib/Classes/QGWKWebView.h; sourceTree = "<group>"; };
-		C34250852479194E003DEDA6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = SHTestLib/Classes/LICENSE; sourceTree = "<group>"; };
-		C34250862479194F003DEDA6 /* AIQP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIQP.h; path = SHTestLib/Classes/AIQP.h; sourceTree = "<group>"; };
-		C34250872479194F003DEDA6 /* AIQP+ReactNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AIQP+ReactNative.h"; path = "SHTestLib/Classes/AIQP+ReactNative.h"; sourceTree = "<group>"; };
 		C9B8246BB69CD82146EE50B76727BC92 /* SHTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHTestLib-dummy.m"; sourceTree = "<group>"; };
 		DF769453806E6E9E3D6621F5B9016227 /* SHTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E583E1E294A64B849BA738C8DDB12D99 /* Pods-SHTestLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHTestLib_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -76,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C342508C2479194F003DEDA6 /* libQGSdk.a in Frameworks */,
 				62A19D2565771CB30F6A9E4EB829E69D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C342508D2479194F003DEDA6 /* libQGSdk.a in Frameworks */,
 				9A3F3241F3966A0A661EF12E4CF62C32 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,13 +147,6 @@
 		C114C7550DF0A3918E9BFDDAFC69B0CF /* SHTestLib */ = {
 			isa = PBXGroup;
 			children = (
-				C34250862479194F003DEDA6 /* AIQP.h */,
-				C34250872479194F003DEDA6 /* AIQP+ReactNative.h */,
-				C34250832479194E003DEDA6 /* libQGSdk.a */,
-				C34250852479194E003DEDA6 /* LICENSE */,
-				C34250812479194E003DEDA6 /* QGInbox.h */,
-				C34250822479194E003DEDA6 /* QGSdk.h */,
-				C34250842479194E003DEDA6 /* QGWKWebView.h */,
 				BC14858A9CCE84484C0B4D0432851322 /* Pod */,
 				420F260B9D9D9B176B3948BBEE866EEC /* Support Files */,
 			);
@@ -210,12 +180,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34250932479194F003DEDA6 /* AIQP.h in Headers */,
-				C342508B2479194F003DEDA6 /* QGSdk.h in Headers */,
-				C34250952479194F003DEDA6 /* AIQP+ReactNative.h in Headers */,
 				BD8765B92DCFBDBA2D9B756D57E0038B /* SHTestLib-umbrella.h in Headers */,
-				C342508F2479194F003DEDA6 /* QGWKWebView.h in Headers */,
-				C34250892479194F003DEDA6 /* QGInbox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,12 +188,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34250922479194F003DEDA6 /* AIQP.h in Headers */,
-				C342508A2479194F003DEDA6 /* QGSdk.h in Headers */,
-				C34250942479194F003DEDA6 /* AIQP+ReactNative.h in Headers */,
 				B8EB0E154960EC79C659474ED1830337 /* Pods-SHTestLib_Tests-umbrella.h in Headers */,
-				C342508E2479194F003DEDA6 /* QGWKWebView.h in Headers */,
-				C34250882479194F003DEDA6 /* QGInbox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +265,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34250912479194F003DEDA6 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34250902479194F003DEDA6 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
