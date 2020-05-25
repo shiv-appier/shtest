@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   
   # s.subspec 'ios-sdk' do |ss|
   s.library = 'z'
-  s.source_files = "SHTestLib/SHTestLib/Classes/**/*.{h, m, swift}"
-  s.vendored_library = "SHTestLib/SHTestLib/Classes/**/*.a"
+  s.source_files = "SHTestLib/Classes/**/*.{h, m, swift}"
+  s.vendored_library = "SHTestLib/Classes/**/*.a"
   s.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'ImageIO', 'MobileCoreServices'
   # end
 
