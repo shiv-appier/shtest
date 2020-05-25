@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "appier" => "shiv.raj@appier.com" }
-  s.platform     = :ios, '11.0'
+  s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/shiv-appier/shtest.git", :tag => "v#{s.version}"}
   s.default_subspec = "ios-sdk"
   s.static_framework = true
