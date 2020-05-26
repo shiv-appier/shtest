@@ -1,6 +1,0 @@
-framework module Pods_SHTestLib_Tests {
-  umbrella header "Pods-SHTestLib_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
