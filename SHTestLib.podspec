@@ -3,7 +3,7 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, 'version.json')))
 
 Pod::Spec.new do |s|
-  s.name         = "shtest"
+  s.name         = "SHTestLib"
   s.version      = package['version']
   s.summary      = "iOS Sdk helps you to track user events in your app and display notifications"
 
@@ -18,10 +18,8 @@ Pod::Spec.new do |s|
   s.static_framework = true
   
   s.subspec 'ios-sdk' do |ss|
-    ss.library = 'z'
-    ss.source_files = "SHTestLib/SHTestLib/Classes/**/*.{h, m, swift}"
-    ss.vendored_library = "SHTestLib/SHTestLib/Classes/**/*.a"
-    ss.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'ImageIO', 'MobileCoreServices' 
+    ss.source_files = "Classes/**/*"
+    ss.vendored_library = "Classes/**/*.a"
   end
 
   s.requires_arc = true
